@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "hello world",
+    "name": "Takealot Modifier",
     "version": "1.0",
     "content_scripts":[
         {       
-            "matches": ["<all_urls>"],
-            "js":["content.js"]
+            "matches": ["https://www.takealot.com/*"],
+            "js":["thirdParty/jquery-3.3.1.min.js","content.js"]
         }
     ]
 
